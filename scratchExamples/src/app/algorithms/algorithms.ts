@@ -4,16 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-algorithms',
   imports: [FormsModule, CommonModule],
-  templateUrl: './home.html',
-  styleUrl: './home.scss',
+  templateUrl: './algorithms.html',
+  styleUrl: './algorithms.scss',
 })
-export class Home {
+export class ALGORITHMS {
   constructor(private route: Router) {}
   buttons = [
-    'ASCII',
-    'ALGORITHMS',
+    'PHONE BOOK',
+    'Button 2',
     'Button 3',
     'Button 4',
     'Button 5',
