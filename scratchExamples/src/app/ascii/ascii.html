@@ -1,0 +1,17 @@
+<div>
+  <div class="back-button" [routerLink]="['']" routerLinkActive="router-link-active" >← Back</div>
+</div>
+<div class="center-container">
+  <div class="center-box">
+    <h2>Character to ASCII Converter</h2>
+
+    <input type="text" id="textInput" placeholder="Type something like A65" [(ngModel)]="inputText"/>
+    <button (click)="showAscii()" >Convert</button>
+  <br/>
+  <div class="result" >
+
+    {{output}}
+  </div>
+    </div></div>
+ 
+
