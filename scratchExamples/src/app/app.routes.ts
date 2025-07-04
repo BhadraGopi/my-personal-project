@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { ASCII } from './ascii/ascii';
 import { Home } from './home/home';
 import { ALGORITHMS } from './algorithms/algorithms';
+import { Trashcan } from './trashcan/trashcan';
 
 export const routes: Routes = [
   {
@@ -15,5 +16,9 @@ export const routes: Routes = [
   {
     path: 'algorithms',
     component: ALGORITHMS,
+  },
+  {
+    path: 'trashcan',
+    component: Trashcan,
   },
 ];

@@ -14,7 +14,7 @@ export class Home {
   buttons = [
     'ASCII',
     'ALGORITHMS',
-    'Button 3',
+    'TRASHCAN',
     'Button 4',
     'Button 5',
     'Button 6',
